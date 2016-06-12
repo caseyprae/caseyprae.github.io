@@ -1,5 +1,11 @@
+title{
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+}
 body{
 	background-color: #ffffff;
+	text-align: center;
 }
 h1{
 	color: #383435;
