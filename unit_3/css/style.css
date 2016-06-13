@@ -4,19 +4,22 @@ title{
 	text-align: center;
 }
 body{
-	background-image: url("colouredstackedbooks.jpg");
 	text-align: center;
-
+	background: url("stackedbooks.jpg");
+	background-size: cover;
 }
+
 h1{
 	color: #383435;
 }
+
 #slogan{
 	font-style: italic;
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
 }
+
 ul{
 	text-align: center;
 	list-style-type: none;
