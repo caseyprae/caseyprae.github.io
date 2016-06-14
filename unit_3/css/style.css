@@ -5,11 +5,11 @@ title{
 }
 body{
 	text-align: center;
-	background: url("stackedbooks.jpg");
+	background: url("../images/stackedbooks.jpg");
 	background-size: cover;
 }
 
-h1{
+h1{ font: helvetica; 
 	color: #383435;
 }
 
@@ -19,8 +19,18 @@ h1{
 	font-weight: bold;
 	text-align: center;
 }
-
+p{  
+	padding-left: 400px;
+	padding-right: 400px;
+	font-size: 22px;
+	font-weight: normal;
+}
 ul{
 	text-align: center;
 	list-style-type: none;
+}
+h4{
+	font-size: 16px;
+	font-weight: normal;
+}
 }
