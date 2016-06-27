@@ -14,11 +14,40 @@ header{
 	background: url("../images/stackedbooks.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height:700px;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 nav{
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+aside{
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+article{
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+div{
+	background-color: #FFE2B8;
+}
+section{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 a{
 	text-decoration: none;
@@ -67,22 +96,9 @@ h4{
 	font-size: 16px;
 	font-weight: normal;
 }
-#about{
-	background-color:#eee;
-}
 
-#shop{
-	background-color:#fff;
-}
-
-#blog{
-	background-color: #f5f1db;
-}
 h3{
 	font-family: 'EB Garamond',serif;
 	letter-spacing: 1px;
 }
 
-#contact{
-	background-color:#cfeee2;
-}
