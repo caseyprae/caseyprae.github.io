@@ -8,97 +8,88 @@ order of CSS:
 
 body{
 	text-align: center;
-	}
+}
 
 header{
-	background: url("../images/stackedbooks.jpg") no-repeat center center fixed;
-	background-size: cover;
-	height:700px;
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: #FFF;
+	border: 10px;
+	padding: 5px;
+	color: #000;
+}
+article{
+	text-align: center;
+	font-family: 'Helvetica',sans-serif;
+	font-style: bold;
+	font-size: 20px;
+	padding-bottom: 20px;
+	letter-spacing: 2px;
 }
 
 nav{
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: #FFF;
+	border: 1px;
+	padding: 5px;
+	text-align: center;
 }
-aside{
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
-}
-article{
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-}
+
 footer{
-	background-color: #FF957E;
-	border: 1px black solid;
+	border: 1px;
 	padding: 20px;
 }
-div{
-	background-color: #FFE2B8;
-}
-section{
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
-}
+
 a{
 	text-decoration: none;
 	border-bottom: 1px solid #000;
 	color: #000;
 	padding-bottom: 2px;
 }
-header p{
-	font-family: 'Helvetica',sans-serif;
-	font-style: normal;
-	font-size: 24px;
-}
-
-#blog header{
-	height:auto;
-	background:none;
-}
-
 h1{ 
 	font-family: 'EB Garamond', serif;
-	color: #383435;
-	font-size: 54px;
-	font-weight: bold;
+	color: #FFF;
+	background-color: #000;
+	font-size: 60px;
+	font-weight: normal;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 8px;
+	border-bottom: 2px solid #000;
 }
 h2{
 	font-family: 'Helvetica', sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: bold;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 p{  
-	padding-left: 400px;
-	padding-right: 400px;
-	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-align: left;
 	font-family:'EB Garamond',serif;
 }
 
-ul{
-	font-family: 'EB Garamond',serif;
-	text-align: center;
-	list-style-type: none;
-}
-h4{
-	font-size: 16px;
-	font-weight: normal;
-}
 
 h3{
 	font-family: 'EB Garamond',serif;
 	letter-spacing: 1px;
+}
+.column{
+	float: left;
+	width: 300px;
+	height: 300px;
+	padding: 60px;
+	margin: 2px;
+	border: 2px;
+	background-color: #000;
+	color: #FFF;
+
+}
+footer{
+	clear: both;
 }
 
