@@ -19,7 +19,7 @@ body{
 header{
 	background-color: #FFF;
 	border: .5em;
-	padding: .25em;
+	padding: .15em;
 	color: #000;
 }
 
@@ -112,12 +112,14 @@ h3{
 		height: 400px;
 		width: 48%;
 		margin: 2px .25%;
+
 }
-@media only screen and (max-width: 590px){
+@media only screen and (max-width: 557px){
 	.column{
 		float: none;
-		height: 400px;
+		height: auto;
 		margin: 2px auto;
+		width: 75%;
 	}
 @media only screen and (max-width: 545px){
 	.column{
